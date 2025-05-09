@@ -71,12 +71,12 @@ const GLOBAL_CONFIG = {
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://api.dujin.org/bing/1920.php",
+  BACKGROUND_IMG_URL: "https://s2.loli.net/2023/06/14/89N176ZfXUxaoTd.jpg",
   /**
    * ICP 备案号，留空不显示
    */
-  ICP: "京ICP证000001号",
-  ICP_URL: "https://beian.miit.gov.cn/",
+  ICP: "",
+  ICP_URL: "",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
@@ -85,7 +85,6 @@ const GLOBAL_CONFIG = {
     "欢迎拜访",
     "歡迎拜訪",
     "Welcome, my friend!",
-    "訪問へようこそ",
     "嗨，别来无恙",
     "不忘初心，一生浪漫",
     "最近还好吗？",
