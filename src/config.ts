@@ -34,7 +34,7 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "Rakien's引导页",
+  BLOG_NAME: "Rakien's Blog",
   /**
    * 个人博客链接
    */
