@@ -1,51 +1,30 @@
 /** Website 分类配置 */
 const WEBSITE_SORTS: WebsiteSort[] = [
   {
-    title: "示例分类1",
+    title: "主服务",
     sites: [
       {
-        title: "主标题",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-        color: "#0171CD",
+        title: "博客",
+        url: "https://blog.rakien.top/",
+        icon: "https://s2.loli.net/2023/06/14/UmQkSwX6ElYfJW4.jpg",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "网盘",
+        description: "个人网盘",
+        url: "https://pan.rakien.top/",
+        icon: "https://s2.loli.net/2025/05/09/g8sZaMUvcKLY4AB.jpg",
       },
       {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
+        title: "小卖部",
+        description: "购买网站",
+        url: "https://shop.rakien.top/",
+        icon: "https://s2.loli.net/2025/05/09/WwsqTNuy6zEF2c9.png",
       },
     ],
   },
   {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
-  {
-    title: "友情链接",
-    sites: [
-      {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
-      },
-    ],
-  },
+    title: "工具类",
+  }
 ];
 
 /** Website 配置（2023.3.29 已废弃） */
@@ -55,19 +34,19 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "EsunR-Blog",
+  BLOG_NAME: "Rakien's引导页",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://blog.esunr.xyz",
+  BLOG_URL: "https://blog.rakien.top",
   /**
    * 指定中心 LOGO 图片地址
    */
-  LOGO_URL: null,
+  LOGO_URL: "https://s2.loli.net/2023/06/17/HAhJI8tRFlQcw9D.png",
   /**
    * 个人 Github 链接
    */
-  GITHUB_URL: "https://github.com/EsunR",
+  GITHUB_URL: "",
   /**
    * 背景图片地址
    */
